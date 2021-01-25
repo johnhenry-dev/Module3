@@ -22,3 +22,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::post('todolist', [TodolistController::class,'APIcreate']);
 
 Route::get('todolist', [TodolistController::class, 'APIshow']);
+
+Route::put('todolistUpdate/{id}', [TodolistController::class, 'APIupdate']);
+
+Route::delete('todolistDelete/{id}', [TodolistController::class, 'APIdelete']);

@@ -20,3 +20,7 @@ Route::get('delete/{id}', 'App\Http\Controllers\TodolistController@delete');
 Route::get('create', 'App\Http\Controllers\TodolistController@create');
 
 Route::get('addTodo', 'App\Http\Controllers\TodolistController@addTodo');
+
+Route::get('edit/{id}', 'App\Http\Controllers\TodolistController@edit');
+
+Route::get('editTodo/{id}', 'App\Http\Controllers\TodolistController@editTodo');
