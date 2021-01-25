@@ -25,6 +25,19 @@ class TodolistController extends Controller
         return redirect('/');
     }
 
+    public function create()
+    {
+        return view('addView');
+    }
+
+    public function addTodo(Request $request)
+    {
+        $todolist = new todolist;
+        $todolist->todolist = $request->input('todolist');
+        $todolist->save();
+        return redirect('/');
+    }
+
     public function APIdelete(Request $request, $id)
     {
         $todolist = todolist::find($id);
