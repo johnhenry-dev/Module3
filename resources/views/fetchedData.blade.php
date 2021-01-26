@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
+        <link rel="stylesheet" type = "text/css" href="styles.css">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -17,15 +18,24 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
         <style>
-            body {
+             body {
                 font-family: 'Nunito';
                 font-size:25px;
                 background-color: palegoldenrod;
                 font-weight:bold;
             }
+
+            h2{
+                font-weight:bold;
+            }
+
         </style>
     </head>
     <body>
+    <div class="container text-center">
+    <h2>My ToDo List </h2>
+    </div>
+
     <a href="create">Add To Do list</a>
 
         <table class = "table">
