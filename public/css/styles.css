@@ -1,0 +1,43 @@
+body {
+    font-family: 'Nunito';
+    font-size:25px;
+    background-color: palegoldenrod;
+    font-weight:bold;
+}
+
+h2{
+   font-weight:bold;
+}
+
+.box {
+	width: 80%;
+	margin: 0 auto !important;
+	background-color: rgb(243, 212, 242);
+	padding: 0;
+}
+
+.header {
+	background-color: rgb(62, 63, 62);
+	padding: 25px 0 10px 0;
+}
+
+.header h2 {
+	color: white;
+	padding: 0 0 25px 0;
+	text-transform: uppercase;
+}
+
+tr {
+	padding: 10px 10px;
+	background-color: burlywood;
+	border-bottom: 1px solid black;
+}
+
+tr:hover {
+	background-color: blanchedalmond;
+}
+
+tr {
+	line-style-type: none;
+	min-height: 400px;
+}
